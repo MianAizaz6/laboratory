@@ -1,0 +1,21 @@
+@import "variables";
+.hover__list {
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-color: $primary-dark;
+        color: white;
+
+        li {
+                border-bottom: 1px solid $primary-darker;
+
+                font-size: .7rem;
+                min-width: 300px;
+        }
+
+        &-right {
+                position: absolute;
+                left: 100%;
+                top: 0%;
+        }
+}
