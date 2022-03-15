@@ -1,0 +1,27 @@
+@import "variables";
+
+ul {
+    padding: 0 2rem;
+    .list-group-item {
+        font-size: 1rem;
+        font-weight: bold;
+
+        margin: .7rem 1rem;
+        padding: 0rem 0 0rem 1.5rem;
+
+        border: 1px solid #aaa !important;
+        border-radius: 2px !important;
+
+        transition: all 200ms ease-in;
+
+        &:hover {
+            color: white;
+            background-color: #08408B;
+        }
+
+        img {
+            background-color: $primary-color;
+        }
+
+    }
+}

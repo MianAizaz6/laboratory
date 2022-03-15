@@ -1,0 +1,23 @@
+.footer {
+    ul {
+        padding: 1rem;
+        li {
+            border-left: 2px solid white;
+            padding: 0 1rem;
+
+            font-size: .9rem;
+
+            a {
+                color: white;
+            }
+        }
+    }
+
+    .bottom-footer {
+        
+        padding: 2rem 0;
+        background: url("../Images/after-bottom-bg.png") ;
+        background-repeat: round;
+        background-position: 10px 10px;
+    }
+}

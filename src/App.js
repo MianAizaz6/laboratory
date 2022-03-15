@@ -4,6 +4,8 @@ import Team from './Components/Team';
 import Services from './Components/Services';
 import LabComponent from './Components/LabComponent';
 import FooterComponent from './Components/FooterComponent';
+import IframeSection from './Components/Iframes/IframeSection';
+import InfoSection from './Components/InfoSection/InfoSection';
 function App() {
   return (
     <>
@@ -12,7 +14,8 @@ function App() {
         <Team />
         <Services/>
         <LabComponent/>
-
+        <IframeSection/>
+        <InfoSection/>
         <FooterComponent />
     </>
         

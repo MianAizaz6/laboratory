@@ -1,0 +1,19 @@
+@import "variables";
+.iframe-div {
+    padding: 1rem ;
+
+    div {
+        border-bottom: 3px solid $primary-color;
+    }
+    span {
+        padding: .5rem 1rem;
+        background-color: $primary-color;
+        font-size: 1rem;
+        color: white;
+    }
+
+    iframe {
+        width: 100%;
+        min-height: 400px;
+    }
+}
