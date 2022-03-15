@@ -1,7 +1,7 @@
 import React,{Fragment} from 'react';
-import '../Styles/TopSection.css';
-import Logo from '../Images/csir.png'
-import Logo1 from '../Images/img-a.png'
+import '../assets/scss/topsection.scss';
+import Logo from '../assets/Images/csir.png'
+import Logo1 from '../assets/Images/img-a.png'
 
 function TopSection() {
   return (
@@ -39,11 +39,11 @@ function TopSection() {
                         </div>
                         <div className="col-md-6 sm-12 md-6">
                             <div className="logos">
-                                <a href="#"><img src={Logo1} alt="Logo" /></a>
-                                <a href="#"><img src={Logo1} alt="Logo" /></a>
-                                <a href="#"><img src={Logo1} alt="Logo" /></a>
-                                <a href="#"><img src={Logo1} alt="Logo" /></a>
-                                <a href="#"><img src={Logo1} alt="Logo" /></a>
+                                <a href="##"><img src={Logo1} alt="Logo" /></a>
+                                <a href="##"><img src={Logo1} alt="Logo" /></a>
+                                <a href="##"><img src={Logo1} alt="Logo" /></a>
+                                <a href="##"><img src={Logo1} alt="Logo" /></a>
+                                <a href="##"><img src={Logo1} alt="Logo" /></a>
                                 
                             </div>
                         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo1 from '../Images/img-a.png';
+import Logo1 from '../assets/Images/img-a.png';
 import '../Styles/TopSection.css';
 
 
@@ -28,7 +28,7 @@ function Team() {
                            </div>
                            <div>
                                <h4>President Narendra Modi</h4>
-                               <p>President CSIR</p>
+                               <p>President PCSRI</p>
                            </div>
                             
                         </div>
