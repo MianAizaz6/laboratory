@@ -35,6 +35,17 @@
     height: 90%;
 }
 
+.teamCard{
+    display: flex;
+    border: 1px solid grey;
+    background-image: url('../Images/team-bg.png');
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 11rem;
+
+}
+
 /* Medium Screen */
 @media screen and (max-width: 850px) {
     .logos{
