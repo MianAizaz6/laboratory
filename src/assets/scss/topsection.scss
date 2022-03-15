@@ -63,7 +63,8 @@
 .cardContainer{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 10px;
+    gap: 20px;
+    
 }
 .labcard{
     background-color: white;
@@ -73,12 +74,23 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    .logo{
-        border-radius: 50px;
-        height: 50px;
-        width: 5px;
-        background-color: #71B10C;
-    }
+    padding: 20px;
+    height: 16rem;
+    transition:all 200ms ease-out;
+}
+.labcard:hover{
+   transform: translateY(-8px);
+   
+   
+}
+.imgContainer{
+    background-color: rgb(113, 177, 12);
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* Medium Screen */
@@ -100,6 +112,12 @@
     .logo-section p{
         font-size: 0.9rem;
     }
+    .cardContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        gap: 20px;
+        
+    }
   }
 
 
@@ -113,6 +131,12 @@
     }
     .logos a img{
         height: 80%;
+    }
+    .cardContainer{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        
     }
   }
 
