@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo1 from '../assets/Images/img-a.png';
-import '../Styles/TopSection.css';
+import '../assets/scss/topsection.scss';
 
 
 function Team() {
