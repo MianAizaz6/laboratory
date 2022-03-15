@@ -1,8 +1,8 @@
 import React from 'react';
 import Logo1 from '../assets/Images/img-a.png';
 import '../assets/scss/topsection.scss';
-import Logo1 from '../assets/Images/modi.png';
-import '../assets/scss/topsection.scss'
+import AvatarLogo from '../assets/Images/modi.png';
+
 
 
 function Team() {
@@ -14,7 +14,7 @@ function Team() {
                     <div className="col-md-5">
                         <div className="teamCard">
                            <div>
-                           <img src={Logo1} alt="" />
+                           <img src={AvatarLogo} alt="" />
                            </div>
                            <div>
                                <h4>President Narendra Modi</h4>
@@ -26,7 +26,7 @@ function Team() {
                     <div className="col-md-5">
                         <div className="teamCard">
                            <div>
-                           <img src={Logo1} alt="" />
+                           <img src={AvatarLogo} alt="" />
                            </div>
                            <div>
                                <h4>President Narendra Modi</h4>
