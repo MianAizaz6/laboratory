@@ -3,7 +3,7 @@ import Header from './Components/Header';
 import Team from './Components/Team';
 import Services from './Components/Services';
 import LabComponent from './Components/LabComponent';
-
+import FooterComponent from './Components/FooterComponent';
 function App() {
   return (
     <>
@@ -12,6 +12,8 @@ function App() {
         <Team />
         <Services/>
         <LabComponent/>
+
+        <FooterComponent />
     </>
         
   );
