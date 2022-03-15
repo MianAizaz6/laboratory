@@ -1,10 +1,40 @@
-import React from 'react'
+import React from 'react';
+import Logo1 from '../assets/Images/img-a.png';
+import '../Styles/TopSection.css';
+
 
 function Team() {
     return (
         <div>
-            <h2>this is team</h2>
-            <h1>this is team</h1>
+            <div className="container p-4">
+                <div className="row">
+                    <div className="col-md-1"></div>
+                    <div className="col-md-5">
+                        <div className="teamCard">
+                           <div>
+                           <img src={Logo1} alt="" />
+                           </div>
+                           <div>
+                               <h4>President Narendra Modi</h4>
+                               <p>President CSIR</p>
+                           </div>
+                            
+                        </div>
+                    </div>
+                    <div className="col-md-5">
+                        <div className="teamCard">
+                           <div>
+                           <img src={Logo1} alt="" />
+                           </div>
+                           <div>
+                               <h4>President Narendra Modi</h4>
+                               <p>President PCSRI</p>
+                           </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }
