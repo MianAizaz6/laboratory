@@ -1,6 +1,6 @@
 import React,{Fragment} from 'react';
 import '../assets/scss/topsection.scss';
-import Logo from '../assets/Images/csir.png'
+import Logo from '../assets/Images/mainImages/PCSIRlogo.png'
 import Logo1 from '../assets/Images/img-a.png'
 
 function TopSection() {
@@ -33,8 +33,8 @@ function TopSection() {
                             <div className="logo-section">
                                 <img src={Logo} alt="" />
                                 <p>
-                                    COUNCIL OF SCIENTIFIC & INDUSTRIAL RESEARCH
-                                    MINISTRY OF SCIENCE & TECHNOLOGY, GOVT. OF INDIA</p>
+                                PCSIR Laboratories Complex, Peshawar
+</p>
                             </div>
                         </div>
                         <div className="col-md-6 sm-12 md-6">

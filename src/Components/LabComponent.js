@@ -14,40 +14,40 @@ function LabComponent() {
                             <img src={logoDNA} alt="" />
                            
                         </div>
-                        <h1>78</h1>
-                        <h5>Biological Sciences</h5>
+                        <h1>20+</h1>
+                        <h5>Research Labs</h5>
                     </div>
                     <div className="labcard">
                         <div className="imgContainer ">
                             <img src={logoDNA} alt="" />
                            
                         </div>
-                        <h1>78</h1>
-                        <h5>Biological Sciences</h5>
+                        <h1>29</h1>
+                        <h5>Scientists</h5>
                     </div>
                     <div className="labcard">
                         <div className="imgContainer ">
                             <img src={logoDNA} alt="" />
                            
                         </div>
-                        <h1>78</h1>
-                        <h5>Biological Sciences</h5>
+                        <h1>10</h1>
+                        <h5>Engineers</h5>
                     </div>
                     <div className="labcard">
                         <div className="imgContainer ">
                             <img src={logoDNA} alt="" />
                            
                         </div>
-                        <h1>78</h1>
-                        <h5>Biological Sciences</h5>
+                        <h1>50</h1>
+                        <h5>Products</h5>
                     </div>
                     <div className="labcard">
                         <div className="imgContainer ">
                             <img src={logoDNA} alt="" />
                            
                         </div>
-                        <h1>78</h1>
-                        <h5>Biological Sciences</h5>
+                        <h1>3</h1>
+                        <h5>Pilot Plants</h5>
                     </div>
 
                </div>
