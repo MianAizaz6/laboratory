@@ -9,7 +9,7 @@ function IframeComponent({source, title}) {
             {title}
           </span>
           </div>
-        <iframe src={source} title={title}></iframe>
+        <iframe src={source} title={title} ></iframe>
     </div>
   )
 }

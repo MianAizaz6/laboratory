@@ -7,6 +7,7 @@ import FooterComponent from './Components/FooterComponent';
 import IframeSection from './Components/Iframes/IframeSection';
 import InfoSection from './Components/InfoSection/InfoSection';
 import Slider from './Components/Slider'
+import FooterSlider from './Components/FooterSlider';
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
         <LabComponent/>
         <IframeSection/>
         <InfoSection/>
+        <FooterSlider/>
         <FooterComponent />
     </>
         
